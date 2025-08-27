@@ -32,10 +32,12 @@
   </nav>
 
   <!-- Header-->
-  <header class="masthead d-flex align-items-center">
-    <div class="container px-4 px-lg-5 text-center">
-      <h1 class="mb-1">Joshua De Leon</h1>
-      <h3 class="mb-5"><em>Web GIS Developer | Mapping smarter solutions for real-world problems</em></h3>
+  <header class="masthead d-flex align-items-center" style="position: relative;">
+    <img src="assets/img/header-bg.jpg" class="img-fluid w-100" alt="Background" style="position:absolute; top:0; left:0; height:100%; object-fit:cover; z-index:1;">
+    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:2;"></div>
+    <div class="container px-4 px-lg-5 text-center" style="position:relative; z-index:3;">
+      <h1 class="mb-1 bg-warning  ">Joshua De Leon</h1>
+      <h3 class="mb-5 text-white"><em>Web GIS Developer | Mapping smarter solutions for real-world problems</em></h3>
       <a class="btn btn-primary btn-xl" href="#about">Explore More</a>
     </div>
   </header>
@@ -46,7 +48,7 @@
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-lg-10">
           <h2>Turning data into maps that matters</h2>
-          <p class="lead mb-5">
+          <p class="lead mb-5 text-dark">
             Hi, I’m Joshua — a Web GIS developer passionate about transforming spatial data into meaningful insights.  
             I’ve built solutions for rentals, logistics, and urban planning, helping organizations make smarter, data-driven decisions.  
             My focus is simple: create tools that are practical, scalable, and impactful.
@@ -92,6 +94,7 @@
   <!-- Callout-->
   <section class="callout">
     <div class="container px-4 px-lg-5 text-center">
+      <img src="assets/img/header-bg.jpg" class="img-fluid w-100" alt="Background" style="position:absolute; top:0; left:0; height:100%; object-fit:cover; z-index:1;">
       <h2 class="mx-auto mb-5">
         Mapping the future of your business with <em>Web GIS</em>
       </h2>
@@ -112,7 +115,7 @@
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Homify</div>
-                <p class="mb-0">NDVI monitoring and farm analytics for smarter farming decisions.</p>
+                <p class="mb-0">Rentals and houses for ideal renters/buyers.</p>
               </div>
             </div>
             <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="Agriculture GIS" />
@@ -122,8 +125,8 @@
           <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Logistics Mapping</div>
-                <p class="mb-0">Real-time delivery tracking and route optimization solutions.</p>
+                <div class="h2">Airport Overview</div>
+                <p class="mb-0">Showing where the nearest airports, and its corresponding counts.</p>
               </div>
             </div>
             <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="Logistics GIS" />
@@ -133,8 +136,8 @@
           <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Urban Planning</div>
-                <p class="mb-0">Smart city development supported by spatial data visualization.</p>
+                <div class="h2">Demographic Insights</div>
+                <p class="mb-0">Spatial data visualization of populations in a certain city.</p>
               </div>
             </div>
             <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="Urban GIS" />
